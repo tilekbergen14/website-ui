@@ -88,10 +88,12 @@ section {
     font-size: 40px;
     background: linear-gradient(to right, #9e579d, #574b90);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .text-side p{
     background: linear-gradient(to left, #9e579d, #574b90);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
